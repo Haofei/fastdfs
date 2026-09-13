@@ -1,4 +1,4 @@
-fastdfs (6.18.0-1) stable; urgency=medium
- * tracker.conf support static tracker servers
+fastdfs (6.18.1-1) stable; urgency=medium
+ * storage_sync_rename_file and storage_sync_link_file: fix stack buffer overflow
 
- -- YuQing <384681@qq.com>  Thu, Sep 3 2026 15:37:41 +0800
+ -- YuQing <384681@qq.com>  Sat, Sep 12 2026 10:00:30 +0800

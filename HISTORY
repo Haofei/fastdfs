@@ -1,4 +1,8 @@
 
+Version 6.18.1  2026-09-12
+ * storage_sync_rename_file and storage_sync_link_file:
+   fix stack buffer overflow reported by Akhil Koul
+
 Version 6.18.0  2026-09-04
  * tracker.conf support static tracker servers
  * tracker.conf: storage_sync_file_max_delay and storage_sync_file_max_time
@@ -12,7 +16,8 @@ Version 6.17.1  2026-08-14
 
 Version 6.17.0  2026-08-05
  * tracker server check storage server for safety
- * storage sync authorization by key for safety
+ * storage sync authorization by key for safety,
+   this issue was reported by kittie0619
  * tracker server check client ip when operations are
    delete storage, delete group and set trunk server
  * tracker find trunk server more gracefully
